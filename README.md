@@ -1,6 +1,10 @@
 Java Untrusted Deserialization Exploits Tools
 ---
 
+###  免责声明
+
+本工具仅供学习与研究目的，请勿用于商业目的，如果因此有任何法律纠纷，与工具作者无任何关系。
+
 ### 文件说明
 
     .
@@ -61,6 +65,6 @@ Java Untrusted Deserialization Exploits Tools
 
 ### 更新记录
 
-* 2015-12-07    基于 CommonsCollections <= 3.2.1 Gadget 生成程序 exserial.jar（包含 jboss、jenkins、weblogic、websphere 利用脚本）
-* 2015-12-10    更新目录结构 & 修复 websphere.py 利用脚本 bug
 * 2015-12-12    增加 ClassInject Gadget 执行链生成类 和 反序列化本地测试类
+* 2015-12-10    更新目录结构 & 修复 websphere.py 利用脚本 bug
+* 2015-12-07    基于 CommonsCollections <= 3.2.1 Gadget 生成程序 exserial.jar（包含 jboss、jenkins、weblogic、websphere 利用脚本）
