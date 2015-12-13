@@ -1,11 +1,13 @@
 Java Untrusted Deserialization Exploits Tools
----
+===
 
-###  免责声明
+免责声明
+---
 
 本工具仅供学习与研究目的，请勿用于商业目的，如果因此有任何法律纠纷，与工具作者无任何关系。
 
-### 文件说明
+文件说明
+---
 
     .
     |____README.md
@@ -16,7 +18,8 @@ Java Untrusted Deserialization Exploits Tools
     | |____weblogic.py    WebLogic 利用脚本
     | |____websphere.py   WebSphere 利用脚本
 
-### 使用方法
+使用方法
+---
 
 `exserial.jar` 目前包含两种 Payload 生成模式：`CommandExec` 和 `ClassInject`
 
@@ -27,7 +30,7 @@ Java Untrusted Deserialization Exploits Tools
             CommandExec
             ClassInject
 
-#### 1. CommandExec 模式
+### 1. CommandExec 模式
 
 用于直接在目标服务器上执行系统命令，可以根据不同的目标环境调整攻击配置：
 
@@ -49,7 +52,7 @@ Java Untrusted Deserialization Exploits Tools
     
 ![](./screenshots/1.png)
 
-#### 2. ClassInject 模式
+### 2. ClassInject 模式
 
 用于使目标服务器动态加载我们指定的 JAR 包并执行指定类名的 `main` 方法。
 
@@ -63,7 +66,8 @@ Java Untrusted Deserialization Exploits Tools
 
 ![](./screenshots/2.png)
 
-### 更新记录
+更新记录
+---
 
 * 2015-12-12    增加 ClassInject Gadget 执行链生成类 和 反序列化本地测试类
 * 2015-12-10    更新目录结构 & 修复 websphere.py 利用脚本 bug
